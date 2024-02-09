@@ -19,7 +19,7 @@ const Contact = () => {
                     <p>Uttara, Dhaka</p>
                 </div>
                 <div className="text-center">
-                     <p className="text-2xl font-medium">Please Call Us on <span className="text-green-400 text-3xl" >Whatsapp</span></p>
+                     <p className="text-2xl font-medium">Call Us on <span className="text-green-400 text-3xl" >Whatsapp</span></p>
                      <Link> <span className="bg-orange-400 px-2 py-1 rounded-md text-white">Whatsapp:</span>+8801744912595</Link>
                 </div>
                 
