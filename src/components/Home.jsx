@@ -7,6 +7,8 @@ import Menu from "./Menu";
 const Home = () => {
   let slides = [
     "https://png.pngtree.com/background/20230612/original/pngtree-big-plate-of-fried-food-and-hamburgers-picture-image_3180004.jpg",
+    "https://cdn.openart.ai/stable_diffusion/523f60544bf6d6978d2d707dd3fe36a662708a51_2000x2000.webp",
+    "https://www.foodandwine.com/thmb/UlnhSz-U95pWkbgaRpicfsr390g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Pizza-Hut-Big-New-Yorker-Returns-FT-2-BLOG0123-8dc474301975436f88653aac5762a5c1.jpg"
   ];
   return (
     <>
