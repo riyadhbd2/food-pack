@@ -1,5 +1,6 @@
 import About from "./About";
 import Hero from "./Hero";
+import Menu from "./Menu";
 
 const Home = () => {
   let slides = [
@@ -12,6 +13,9 @@ const Home = () => {
         </div>
         <div>
             <About></About>
+        </div>
+        <div>
+            <Menu></Menu>
         </div>
     </>
   );
