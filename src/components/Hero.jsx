@@ -15,7 +15,7 @@ const Hero = ({ slides }) => {
   };
   
   return (
-    <div className="overflow-hidden relative ">
+    <div className="overflow-hidden relative mt-5">
       <div
         className={`flex transition ease-out duration-300 translate-x-[-${
           current * 100
@@ -23,7 +23,7 @@ const Hero = ({ slides }) => {
         style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {slides.map((slide) => {
-          return <img src={slide} />;
+          return <img src={slide}/>;
         })}
       </div>
 

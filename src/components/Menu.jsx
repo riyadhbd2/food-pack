@@ -5,9 +5,8 @@ const Menu = () => {
   return (
     <div className="container mx-auto mt-11">
       <div className="text-center">
-        <p className="text-yellow-400">Our Items</p>
         <h1 className="text-3xl font-bold">
-          Choose Your Foods By Choosing Resturant
+          <span className="text-orange-400 text-3xl">Order </span>Your Foods By Choosing Resturant
         </h1>
       </div>
       {/* All resturant Name  */}
@@ -22,7 +21,7 @@ const Menu = () => {
           </p>
           <Link
             to="/details"
-            className="bg-yellow-400 text-white px-2 py-1 rounded-md"
+            className="bg-orange-400 text-white px-2 py-1 rounded-md"
           >
             See details
           </Link>
@@ -36,7 +35,7 @@ const Menu = () => {
           </p>
           <Link
             to="/details"
-            className="bg-yellow-400 text-white px-2 py-1 rounded-md"
+            className="bg-orange-400 text-white px-2 py-1 rounded-lg"
           >
             See details
           </Link>
@@ -50,7 +49,7 @@ const Menu = () => {
           </p>
           <Link
             to="/details"
-            className="bg-yellow-400 text-white px-2 py-1 rounded-md"
+            className="bg-orange-400 text-white px-2 py-1 rounded-lg"
           >
             See details
           </Link>
@@ -64,7 +63,7 @@ const Menu = () => {
           </p>
           <Link
             to="/details"
-            className="bg-yellow-400 text-white px-2 py-1 rounded-md"
+            className="bg-orange-400 text-white px-2 py-1 rounded-lg"
           >
             See details
           </Link>
@@ -78,7 +77,7 @@ const Menu = () => {
           </p>
           <Link
             to="/details"
-            className="bg-yellow-400 text-white px-2 py-1 rounded-md"
+            className="bg-orange-400 text-white px-2 py-1 rounded-lg"
           >
             See details
           </Link>
@@ -92,7 +91,7 @@ const Menu = () => {
           </p>
           <Link
             to="/details"
-            className="bg-yellow-400 text-white px-2 py-1 rounded-md"
+            className="bg-orange-400 text-white px-2 py-1 rounded-lg"
           >
             See details
           </Link>
