@@ -2,7 +2,7 @@ import Burger from "../assets/burger.png";
 
 const About = () => {
     return (
-        <div className="container mx-auto mt-14 grid grid-cols-2 items-center">
+        <div className="container mx-auto lg:grid grid-cols-2 mt-14 items-center">
             <div>
                 <img className="w-[400px]" src={Burger} alt="" />
             </div>

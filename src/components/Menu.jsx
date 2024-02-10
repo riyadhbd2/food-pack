@@ -10,7 +10,7 @@ const Menu = () => {
         </h1>
       </div>
       {/* All resturant Name  */}
-      <div className="grid grid-cols-3 mt-11 gap-5">
+      <div className="grid lg:grid-cols-3 mt-11 gap-5">
         {/* Resturant 1 */}
         <div className="border p-5 text-center ">
           <img src={Item1} alt="" />
