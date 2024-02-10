@@ -12,14 +12,15 @@ const Home = () => {
   ];
   return (
     <>
-        <div className="w-[60%] m-auto pt-7">
+        <div className="w-3/5 mx-auto pt-7">
           <Hero slides={slides}></Hero>
+        </div>
+        
+        <div>
+            <Menu></Menu>
         </div>
         <div>
             <About></About>
-        </div>
-        <div>
-            <Menu></Menu>
         </div>
         <Contact></Contact>
         <div>

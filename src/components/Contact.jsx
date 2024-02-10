@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="container mx-auto mt-14">
             <div className="text-center">
                 <h1 className="text-orange-400 text-2xl">Contact Us</h1>
-                <h1 className="text-3xl font-bold mt-5">We Are Availabe 24 hours in Uttara</h1>
+                <h1 className="text-3xl font-bold mt-5">We Are Availabe 24 hours at Uttara</h1>
             </div>
             <div className="grid lg:grid-cols-3 mt-7">
                 <div className="text-center">
