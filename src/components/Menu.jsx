@@ -13,8 +13,8 @@ const Menu = () => {
       <div className="grid lg:grid-cols-3 mt-11 gap-5">
         {/* Resturant 1 */}
         <div className="border p-5 text-center ">
-          <img src={Item1} alt="" />
-          <h1>One</h1>
+          <img className="w-11/12 ml-5" src={Item1} alt="" />
+          <h1 className="text-2xl font-bold">Star Kabap</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, blanditiis.
@@ -23,8 +23,8 @@ const Menu = () => {
             See details</button></Link>
         </div>
         <div className="border p-5 text-center">
-          <img src={Item1} alt="" />
-          <h1>One</h1>
+          <img className="w-11/12 ml-5" src={Item1} alt="" />
+          <h1 className="text-2xl font-bold">KFC</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, blanditiis.
@@ -37,8 +37,8 @@ const Menu = () => {
           </Link>
         </div>
         <div className="border p-5 text-center">
-          <img src={Item1} alt="" />
-          <h1>One</h1>
+          <img className="w-11/12 ml-5" src={Item1} alt="" />
+          <h1 className="text-2xl font-bold">Kacchi Bhai</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, blanditiis.
@@ -51,8 +51,8 @@ const Menu = () => {
           </Link>
         </div>
         <div className="border p-5 text-center">
-          <img src={Item1} alt="" />
-          <h1>One</h1>
+          <img className="w-11/12 ml-5" src={Item1} alt="" />
+          <h1 className="text-2xl font-bold">Sultan's Dine</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, blanditiis.
@@ -65,8 +65,8 @@ const Menu = () => {
           </Link>
         </div>
         <div className="border p-5 text-center">
-          <img src={Item1} alt="" />
-          <h1>One</h1>
+          <img className="w-11/12 ml-5" src={Item1} alt="" />
+          <h1 className="text-2xl font-bold">Hajir Biriyani</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, blanditiis.
@@ -79,8 +79,8 @@ const Menu = () => {
           </Link>
         </div>
         <div className="border p-5 text-center">
-          <img src={Item1} alt="" />
-          <h1>One</h1>
+          <img className="w-11/12 ml-5" src={Item1} alt="" />
+          <h1 className="text-2xl font-bold">BFC</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur, blanditiis.
