@@ -15,7 +15,7 @@ const Hero = ({ slides }) => {
   };
   
   return (
-    <div className="overflow-hidden relative mt-5 w-full h-[500px]">
+    <div className="overflow-hidden relative mt-5 w-full h-[500px] rounded-2xl">
       <div
         className={`flex h-auto transition ease-out duration-300 translate-x-[-${
           current * 100
