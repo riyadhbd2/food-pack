@@ -11,9 +11,13 @@ const Header = () => {
            </div>
            <div className="lg:flex space-x-5">
                 <Link to="/" className="hover:text-orange-400 text-lg">Home</Link>
-                <Link className="hover:text-orange-400 text-lg">Menu</Link>
-                <Link className="hover:text-orange-400 text-lg">Contact</Link>
-                <Link className="hover:text-orange-400 text-lg">About</Link>
+                <Link to="/menu" className="hover:text-orange-400 text-lg">Menu</Link>
+                <Link to="/contact" className="hover:text-orange-400 text-lg">Contact</Link>
+                <Link to="/about" className="hover:text-orange-400 text-lg">About</Link>
+           </div>
+           <div>
+                <Link to="/login" className="hover:text-orange-400 text-lg">Login</Link>
+                <Link to="/signup" className="hover:text-orange-400 text-lg ml-2">SignUp</Link>
            </div>
            
         </nav>
