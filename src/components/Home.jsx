@@ -1,6 +1,5 @@
 import About from "./About";
 import Contact from "./Contact";
-import Footer from "./Footer";
 import Hero from "./Hero";
 import Menu from "./Menu";
 
@@ -23,9 +22,7 @@ const Home = () => {
             <About></About>
         </div>
         <Contact></Contact>
-        <div>
-            <Footer></Footer>
-        </div>
+       
     </>
   );
 };
